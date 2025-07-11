@@ -1,9 +1,10 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./home";
+import Home from "./components/home";
 import Login from "./assets/auth/login";
 import Register from "./assets/auth/register";
 import Navbar from "./assets/auth/navbar";
+import Hero from "./home";
 
 const MainLayout = ({ children }) => {
   return (
@@ -30,7 +31,15 @@ function App() {
             }
           />
           <Route path="/login" element={<Login />} />
-          <Route path="/" element={<Register />} />
+          <Route path="/register" element={<Register />} />
+          <Route
+            path="/"
+            element={
+              <MainLayout>
+                <Hero />
+              </MainLayout>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </>
