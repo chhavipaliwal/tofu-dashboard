@@ -23,7 +23,7 @@ export default function Hero() {
               className="px-8 py-4 font-semibold rounded-lg text-white transition-colors duration-200 shadow-lg hover:opacity-90"
               style={{ backgroundColor: "#387DAD" }}
             >
-              Join SocialHub
+              Join SocialConnect
             </button>
             <button className="px-8 py-4 bg-white text-gray-700 font-semibold rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors duration-200 flex items-center justify-center gap-2 shadow-sm">
               <Icon icon="mdi:play-circle" width="24" height="24" />
