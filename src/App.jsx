@@ -4,7 +4,7 @@ import Home from "./components/home";
 import Login from "./assets/auth/login";
 import Register from "./assets/auth/register";
 import Navbar from "./assets/auth/navbar";
-import Hero from "./home";
+import Hero from "./Hero";
 
 const MainLayout = ({ children }) => {
   return (

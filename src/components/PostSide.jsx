@@ -10,7 +10,7 @@ export default function PostSide({ profileData, setProfileData }) {
       time: "2 hours ago",
       content:
         "Just finished an amazing hiking trip in the mountains! The views were absolutely breathtaking. Nature always finds a way to inspire me. 🏔️",
-      image: "/placeholder.svg?height=300&width=600",
+      image: "./public/mountain.jpg",
       likes: 124,
       comments: 18,
       isLiked: false,

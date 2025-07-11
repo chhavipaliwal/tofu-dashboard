@@ -8,11 +8,11 @@ import EditProfile from "./EditProfile";
 export default function Home() {
   const [showEditProfile, setShowEditProfile] = useState(false);
   const [profileData, setProfileData] = useState({
-    name: "Sarah Johnson",
-    username: "sarahjohnson",
-    bio: "Digital marketing enthusiast | Coffee lover | Travel addict",
-    location: "New York, NY",
-    work: "Tech Solutions Inc.",
+    name: "chhavi paliwal",
+    username: "chhavi_paliwal",
+    bio: "Web Developer | Tech Enthusiast | Coffee Lover",
+    location: "lpu,punjab",
+    work: "",
     posts: "1.2K",
     followers: "5.4K",
     following: "890",

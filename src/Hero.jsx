@@ -2,8 +2,8 @@ import { Icon } from "@iconify/react";
 
 export default function Hero() {
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center p-8">
-      <div className="max-w-7xl w-full grid lg:grid-cols-2 gap-12 items-center">
+    <div className="h-screen bg-gray-50 flex items-center justify-center p-8">
+      <div className=" w-full grid lg:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div className="space-y-8">
           <div className="space-y-6">
