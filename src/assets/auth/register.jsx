@@ -34,18 +34,18 @@ const Register = () => {
     },
   });
   return (
-    <div className=" h-screen  bg-gradient-to-b from-[#d7d8dc] to-[#262626] p-4 flex  ">
+    <div className=" h-screen  bg-gradient-to-b from-[#d7d8dc] to-[#3286C9] p-4 flex  ">
       <div className="w-1/2 h-full flex-1 relative">
         <img
           className="w-full h-full object-cover rounded-xl"
-          src="ear.webp"
+          src="register.jpg"
           alt="profile"
         />
         <div className="absolute top-0 left-0 flex justify-between flex-col h-full w-full">
           <div className="mt-4 flex justify-end mr-4">
             <Link
               to={"/"}
-              className="bg-[#0a0a0a] text-white py-2 px-6 rounded-full mt-4
+              className="bg-[#3286C9] text-white py-2 px-6 rounded-full mt-4
               flex items-center gap-2"
             >
               Back to website
@@ -53,7 +53,7 @@ const Register = () => {
             </Link>
           </div>
 
-          <div className="mb-20 text-white">
+          <div className="mb-20 text-black">
             <h1 className=" text-center text-5xl mb-3 font-normal">
               Capturing Moments,
             </h1>
@@ -159,7 +159,7 @@ const Register = () => {
             </label>
           </div>
           <button
-            className="w-full active:scale-95 hover:bg-[#9087c0] transition-all bg-[#0a0a0a] text-white py-2 rounded-lg col-span-2  mt-6"
+            className="w-full active:scale-95 hover:bg-[#9087c0] transition-all bg-[#3286C9] text-white py-2 rounded-lg col-span-2  mt-6"
             type="submit"
           >
             Create Account
@@ -173,7 +173,7 @@ const Register = () => {
           </div>
           <div className="flex flex-col items-center mr-2">
             <button
-              className="w-full flex items-center justify-center border hover:bg-gray-600 bg-[#0a0a0a] border-gray-400 text-white py-2 rounded-lg mt-4"
+              className="w-full flex items-center justify-center border hover:bg-gray-600 bg-[#2A8DCA] border-gray-400 text-white py-2 rounded-lg mt-4"
               type="submit"
             >
               <Icon
@@ -187,7 +187,7 @@ const Register = () => {
 
           <div className="flex flex-col items-center ml-2">
             <button
-              className="w-full flex items-center justify-center border bg-[#0a0a0a] hover:bg-gray-600 border-gray-400 text-white py-2 rounded-lg mt-4"
+              className="w-full flex items-center justify-center border bg-[#2A8DCA] hover:bg-gray-600 border-gray-400 text-white py-2 rounded-lg mt-4"
               type="submit"
             >
               <Icon icon="hugeicons:apple" width="24" className="mr-2" />

@@ -16,12 +16,12 @@ const Navbar = () => {
     navigate("/login");
   };
   return (
-    <div className="bg-[#151718] pt-2">
-      <nav className="flex justify-between bg-[#d2d3d7] ml-4 mr-4 rounded-xl">
-        <h1 className="text-5xl font-museo m-5">Tofu</h1>
+    <div className="bg-[#387DAD] pt-2">
+      <nav className="flex justify-between  ml-4 mr-4 rounded-xl">
+        <h1 className="text-5xl font-museo m-5">SocialConnect </h1>
         <ul className="flex gap-8 items-center">
-          <Link to="/dashboard">Dashboard</Link>
-          <li>Profile</li>
+          <Link to="/">Profile</Link>
+          <Link to="/explore">Explore</Link>
           <li>Settings</li>
           <li>Contact us</li>
         </ul>

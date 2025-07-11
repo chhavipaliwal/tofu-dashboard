@@ -10,7 +10,7 @@ const Login = () => {
 
   useEffect(() => {
     if (loguser) {
-      navigate("/dashboard");
+      navigate("/home");
     }
   }, []);
 
@@ -36,7 +36,7 @@ const Login = () => {
         );
         if (user) {
           localStorage.setItem("user", JSON.stringify(user));
-          navigate("/dashboard");
+          navigate("/home");
         } else {
           alert("Invalid credentials");
         }
@@ -46,9 +46,9 @@ const Login = () => {
     },
   });
   return (
-    <div className="bg-gradient-to-b from-[#d7d8dc] to-[#262626] h-screen flex items-center justify-center">
+    <div className="bg-gradient-to-b from-[#d7d8dc] to-[#387DAD] h-screen flex items-center justify-center">
       <div className="flex justify-center">
-        <div className=" border border-gray-400 p-4 bg-gradient-to-b from-[#d7d8dc] to-[#262626] shadow-2xl   flex items-center flex-col backdrop-blur-lg rounded-2xl">
+        <div className=" border border-gray-400 p-4 bg-gradient-to-b from-[#d7d8dc] to-[#387DAD] shadow-2xl   flex items-center flex-col backdrop-blur-lg rounded-2xl">
           <div className="border bg-white p-2 rounded-xl mt-2">
             <Icon icon="fluent:arrow-exit-20-filled" width="30" height="30" />
           </div>
@@ -95,7 +95,7 @@ const Login = () => {
             </div>
             <div className="flex justify-center ">
               <button
-                className="hover:bg-gray-400 text-white p-3 mt-3 w-96 rounded-2xl bg-black"
+                className="hover:bg-gray-400 border text-white p-3 mt-3 w-96 rounded-2xl bg-[#387DAD]"
                 type="submit"
               >
                 Login
