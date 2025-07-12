@@ -4,20 +4,20 @@ import { Icon } from "@iconify/react";
 export default function PostSide({ profileData, setProfileData }) {
   const [posts, setPosts] = useState([
     {
-      id: Date.now() - 7200000, // 2 hours ago
+      id: Date.now() - 7200000,
       author: "Alex Thompson",
       username: "alexthompson",
       time: "2 hours ago",
       content:
         "Just finished an amazing hiking trip in the mountains! The views were absolutely breathtaking. Nature always finds a way to inspire me. 🏔️",
-      image: "./public/mountain.jpg",
+      image: "./mountain.jpg",
       likes: 124,
       comments: 18,
       isLiked: false,
       isSaved: false,
     },
     {
-      id: Date.now() - 18000000, // 5 hours ago
+      id: Date.now() - 18000000,
       author: "Maria Garcia",
       username: "mariagarcia",
       time: "5 hours ago",
